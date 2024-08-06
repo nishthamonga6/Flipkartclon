@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+    background-color: white;
+    display: flex;
+    width: 25%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    
+}
+#body{
+    font-family: Inter, -apple-system, Helvetica, Arial, sans-serif;
+    background-color: #efefef;
+}
+body{
+    background-color: #efefef;
+}
+.old{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    justify-content: space-around;
+    
+}
+.uh{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+}
+.uh li{
+    color: black;
+    
+
+}
+.new{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 25%;
+    height: 13vh;
+    /* border: 2px solid green; */
+    color: white;
+    /* text-align: end; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 30px;
+}
+span{
+    color: yellow;
+    font-style: italic;
+
+}
+.logohead{
+    /* border: 2px solid orange; */
+    text-align: end;
+}
+#flipkart{
+    color: white;
+
+}
+.search-bar{
+    width: 35%;
+    height: 6vh;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.search-bar input{
+    width: 85%;
+    height: 100%;
+    border: none;
+    outline: none;
+
+}
+ul{
+    width: 30%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+justify-content: space-around;
+}
+.fa-magnifying-glass{
+color: blue;
+font-size: 18px;
+}
+.fa-solid{
+margin-left: 4px;
+font-size: 18px;
+}
+ul li{
+    color: white;
+list-style: none;
+font-size: 13px;
+
+}
+.user_profile{
+    background-color: white;
+    border: 2px solid white;
+    height: 70px;
+    width: 200px;
+    margin: 25px;
+    text-align: justify;
+    margin-top: 20px;
+    
+}
+
+.profilecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid white ;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+  .profile {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .orderimg{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    margin-right: 10px;
+    padding-left: 15px;
+  }
+
+  .myordercontainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    height: 60px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 150px;
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    
+  }
+  .orderarrow{
+    padding-left: 106px;
+  }
+  .orderarrow1{
+    padding-left: 106px;
+    
+  }
+  .accountcontainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 1px;
+    color: gray;
+    font-weight: bold;
+  }
+  .accountlogo{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    margin-right: 10px;
+    padding-left: 15px;
+  }
+  .accountbox1{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    margin-left: 150px;
+    padding-left: 70px;
+
+  }
+  .acctxt{
+    font-size: 15px;
+    color: gray;
+  }
+  .acctxt:hover{
+    font-size: 15px;
+    color: blue;
+    cursor: pointer;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.personalinfobox {
+    display: flex;
+    border: 2px solid white;
+    background-color: white;
+    height: 30px;
+    width: 900px;
+
+    margin-top: 20px;
+    padding-left: 20px; 
+}
+
+.prsinfo {
+    font-size: 20px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.input {
+    border: 2px solid #D3D3D3;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    color: gray;
+    text-align: center;
+    padding: 15px;
+}
+#edit{
+    color: blue;
+    font-size: 15px;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.pb2{
+    display: flex;    
+    border: 2px solid white;
+    background-color: white;
+    height: 90px;
+    width: 900px;
+    margin-right: 100px;
+    padding-left: 20px; 
+}
+.input-field{
+    height: 20px;
+    align-items: start;
+    border: 1px solid white;
+    font-size: 15px;
+}
+.input09{
+    border: 2px solid #D3D3D3;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-top: 0px;
+    font-size: 15px;
+    margin-left: 20px;
+    color: gray;
+    text-align: start;
+    padding: 15px;
+}
+.input2 {
+    border: 2px solid #D3D3D3;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    color: gray;
+    text-align: center;
+    padding: 15px;
+}
+.pb3{
+    display: flex;    
+    border: 2px solid white;
+    background-color: white;
+    height: 35px;
+    width: 900px;
+    margin-right: 100px;
+    padding-left: 20px; 
+}
+.pb4{
+    border: 2px solid white;
+    background-color: white;
+    height: 50px;
+    width: 900px;
+    margin-right: 100px;
+    padding-left: 20px; 
+    color: gray;
+    
+}
+.pb5{
+    display: flex;
+    border: 2px solid white;
+    background-color: white;
+    height: 50px;
+    width: 900px;
+    margin-right: 100px;
+    padding-left: 20px; 
+    font-size: 25px;
+}
+.pb51{
+    font-size: 15px;
+}
+.faq{
+    
+    border: 2px solid white;
+    background-color: white;
+    height: 450px;
+    width: 900px;
+    margin-right: 100px;
+    padding-left: 20px; 
+    font-size: 25px;
+}
+.normaltxt{
+    font-size: 15px;
+    
+}
+.bold{
+    font-size: 15px;
+    font-weight: bold;
+}
+.bbold{
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+}
+.rbold{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+.lastkalogo{
+    border: 2px solid white;
+    background-color: white;
+    height: 150px;
+    width: 900px; 
+    font-size: 25px;
+}
+.Frequently{
+    font-weight: bold;
+    color:gray;
+
+    align-items: center;
+}
+.Frequentlycontain{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    margin-top: 35px;
+    margin-left: 150px;
+    padding-left: 30px;
+}
+.Frequentlycontainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    height: 35px;
+    width: 300px;
+    margin-left: 150px;
+    padding-left: 30px;
+}
+.Frequentlyt{
+    font-size: 15px;
+    color: gray;
+    padding-left: 20px;
+}
+.Frequentlyc:hover{
+    font-size: 15px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+.Frequentlyc{
+    font-size: 15px;
+    color: gray;
+    padding-left: 30px;
+}
+.Frequentlyc:hover{
+    font-size: 15px;
+    cursor: pointer;
+    padding-left: 30px;
+}
